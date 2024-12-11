@@ -1,0 +1,90 @@
+# Cursor Composer Prompts
+
+## YAML Parser Prompt
+You are a YAML parser and code generator. Read the provided YAML file and understand its structure. The YAML contains specifications for a multi-service application including frontend, database, cache, and backend services.
+
+## Project Structure Generator
+Based on the YAML file, create the following project structure:
+- Root directory with application name 
+-- .git directory
+-- Frontend application
+-- Backend application
+-- Database scripts
+-- Docker configurations
+-- CI/CD configurations
+
+## Frontend Generation Prompt
+Generate a Flutter application with:
+1. Follow the specifications from the YAML
+2. Implement all required features (login, dashboard, etc.)
+3. Use the specified minimum dependencies
+4. Create a clean architecture structure
+5. Implement state management using flutter_bloc
+6. Create necessary models, repositories, and services
+7. Implement API integration with the backend
+
+## Backend Generation Prompt
+Generate a Spring Boot application with:
+1. Follow the specifications from the YAML
+2. Create RESTful APIs for all features
+3. Implement security using Spring Security
+4. Create database models and repositories
+5. Implement service layer
+6. Add proper error handling and logging
+7. Include actuator endpoints for monitoring
+
+## Database Schema Prompt
+Generate PostgreSQL schema with:
+1. Create tables for all required features
+2. Define proper relationships
+3. Add indexes for optimization
+4. Include audit columns
+5. Create necessary views
+6. Define stored procedures if needed
+
+## Docker Configuration Prompt
+Generate Docker configurations:
+1. Create Dockerfile for each service
+2. Create docker-compose.yml
+3. Configure proper networking
+4. Set up volume mappings
+5. Define environment variables
+6. Configure health checks
+
+## CI/CD Configuration Prompt
+Generate CI/CD configurations:
+1. Create GitHub Actions workflows
+2. Include build steps for all services
+3. Add testing stages
+4. Configure deployment steps
+5. Add security scanning
+6. Set up monitoring and alerts
+
+## Code Review Prompt
+Review generated code for:
+1. Code quality and best practices
+2. Security vulnerabilities
+3. Performance optimizations
+4. Proper error handling
+5. Complete documentation
+6. Test coverage
+
+## Documentation Prompt
+Generate documentation for:
+1. Project setup instructions
+2. API documentation
+3. Database schema
+4. Deployment guide
+5. Contributing guidelines
+6. Troubleshooting guide
+
+## Usage Instructions:
+1. Use these prompts with Cursor Composer in sequence
+2. Start with YAML parsing
+3. Generate project structure
+4. Generate individual components
+5. Review and refine generated code
+6. Generate documentation
+7. Validate against requirements
+
+Note: Each prompt should be used with the Cursor Composer to generate the respective components of the project. The prompts are designed to work together to create a complete, production-ready application based on the YAML specifications.

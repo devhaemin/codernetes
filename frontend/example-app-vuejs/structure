@@ -1,0 +1,18 @@
+example-app-vuejs/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   │   ├── auth/
+│   │   ├── board/
+│   │   ├── common/
+│   │   └── tutorial/
+│   ├── composables/
+│   ├── router/
+│   ├── stores/
+│   ├── types/
+│   ├── utils/
+│   └── views/
+├── .env
+├── package.json
+├── tsconfig.json
+└── vite.config.ts 

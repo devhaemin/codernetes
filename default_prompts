@@ -1,0 +1,13 @@
+
+## Directory Structure rules.
+- You should make seperate directory with git repositories for all of your outputs from yml files.
+- You should make .gitignore files refer to gitignore.io with yml requirements.
+
+## Database Rules.
+- Do not directly connect with database.
+- You can use ORM first when using spring boot or nest.js 
+- Please re-ask to user which frameworks are preffered
+- When you re-ask this, you must offer major options.
+
+## Self implementation ( After options are confirmed)
+- with yml, you should make all of them without user input

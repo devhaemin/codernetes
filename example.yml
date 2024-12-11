@@ -1,0 +1,69 @@
+name: "example-app"
+
+requirements:
+  - "vue3.0"
+  - "typescript"
+  - "postgres"
+  - "redis"
+  - "springboot"
+  - "java"
+
+idea:
+  - "The app is Simple CRUD Board application with onboarding tutorials"
+  - "The app is for the mobile platform"
+specifications:
+  - "The app should offer a login and register feature"
+  - "The app should offer a board feature"
+  - "The app should offer a onboarding tutorials feature"
+  - "comment feature"
+  - "like feature"
+  - "share feature"
+
+services:
+  - name: "example-app-vuejs"
+    as: front-end
+    docker_image_name: "example-app-vuejs"
+    ports:
+      - 8080:8080
+    framework: "vue3.0"
+    language: "typescript"
+    version: "0.1.0"
+    minimum_dependencies:
+      - "vue3.0"
+      - "typescript"
+      - "vue-router"
+      - "vuex"
+      - "axios"
+
+  - name: "example-app-db"
+    as: database
+    docker_image_name: "example-app-db"
+    ports:
+      - 5432:5432
+    framework: "postgres"
+    language: "sql"
+    version: "15.0"
+
+  - name: "example-app-redis"
+    as: cache
+    docker_image_name: "example-app-redis"
+    ports:
+      - 6379:6379
+    framework: "redis"
+    language: "redis"
+    version: "7.0.0"
+
+  - name: "example-rest-api"
+    as: backend
+    docker_image_name: "example-rest-api"
+    ports:
+      - 8080:8080
+    framework: "springboot"
+    language: "java"
+    version: "3.1.0"
+    minimum_dependencies:
+      - "spring-boot-starter-web"
+      - "spring-boot-starter-data-jpa"
+      - "spring-boot-starter-security"
+      - "spring-boot-starter-actuator"
+      - "spring-boot-starter-test"

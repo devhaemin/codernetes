@@ -1,0 +1,50 @@
+# MacOS
+.DS_Store
+
+# Generated code
+**/generated/
+
+# Flutter
+**/build/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+
+# Java & Spring Boot
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+*.class
+*.log
+*.jar
+*.war
+
+# IDE
+.idea/
+*.iws
+*.iml
+*.ipr
+.vscode/
+.project
+.classpath
+
+# Database
+*.sql.gz
+*.dump
+
+# Docker
+docker-compose.override.yml
+
+# Environment
+.env
+.env.local
+*.env.local
+
+# Dependencies
+node_modules/ 

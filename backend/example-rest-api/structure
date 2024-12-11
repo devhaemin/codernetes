@@ -1,0 +1,23 @@
+example-rest-api/
+├── src/
+│   └── main/
+│       ├── java/
+│       │   └── com/
+│       │       └── example/
+│       │           ├── domain/
+│       │           │   ├── entity/
+│       │           │   ├── repository/
+│       │           │   └── service/
+│       │           ├── infrastructure/
+│       │           │   ├── config/
+│       │           │   ├── persistence/
+│       │           │   └── security/
+│       │           ├── application/
+│       │           │   ├── dto/
+│       │           │   ├── mapper/
+│       │           │   └── service/
+│       │           └── presentation/
+│       │               └── controller/
+│       └── resources/
+│           └── application.yml
+└── pom.xml 

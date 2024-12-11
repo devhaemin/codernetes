@@ -1,0 +1,15 @@
+example-app/
+├── frontend/
+│   └── example-app-vuejs/
+├── backend/
+│   └── example-rest-api/
+├── database/
+│   ├── init/
+│   └── migrations/
+├── docker/
+│   ├── frontend/
+│   ├── backend/
+│   ├── database/
+│   └── redis/
+└── .github/
+    └── workflows/
